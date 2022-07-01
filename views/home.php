@@ -15,6 +15,7 @@
     <link href="./static/css/mdb.min.css?ver=1.2.1'" rel="stylesheet">
     <link href="./static/css/aos.css?ver=1.2.1'" rel="stylesheet">
     <link href="./static/css/main.css?ver=1.2.1'" rel="stylesheet">
+    <link href="./static/css/custom-styles.css?ver=1.0.0'" rel="stylesheet">
     <noscript>
         <style type="text/css">
             [data-aos] {
@@ -37,23 +38,39 @@
 
     <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
-            <h1 class="site-title mb-0">Walter Patterson</h1>
+<!--            <h1 class="site-title mb-0">علیرضا شریفیان</h1>-->
             <div class="site-nav">
                 <nav role="navigation">
                     <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" title="About">
+                                <span class="menu-title">درباره من</span>
+                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" title="Skills">
+                                <span class="menu-title">مهارت ها</span>
+                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience" title="Experience">
+                                <span class="menu-title">سوابق کاری</span>
+                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education" title="Education">
+                                <span class="menu-title">سوابق آموزشی</span>
+                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio" title="Portfolio">
+                                <span class="menu-title">نمونه کارها</span>
+                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" title="Contact">
+                                <span class="menu-title">تماس با من</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -66,14 +83,18 @@
         <div class="resume-container">
             <div class="shadow-1-strong bg-white my-5" id="intro">
                 <div class="bg-info text-white">
-                    <div class="cover bg-image"><img src="./static/images/header-background.jpg"/>
+                    <div class="cover bg-image">
+                        <img src="./static/images/project-2.jpg"/>
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
                             <div class="text-center p-5">
-                                <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="./static/images/avatar.jpg" width="160" height="160"/></div>
+                                <div class="avatar p-1">
+                                    <img class="img-thumbnail shadow-2-strong"
+                                         src="./static/images/avatar.jpg" width="160" height="160"/>
+                                </div>
                                 <div class="header-bio mt-3">
                                     <div data-aos="zoom-in" data-aos-delay="0">
-                                        <h2 class="h1">Walter Patterson</h2>
-                                        <p>Front-end Developer and Graphic Designer</p>
+                                        <h2 class="h1">علیرضا شریفیان</h2>
+                                        <p>توسعه دهنده وب (فول استک)</p>
                                     </div>
                                     <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                                         <nav role="navigation">
@@ -385,8 +406,10 @@
         </div>
     </div>
 </footer>
-<script src="./static/scripts/mdb.min.js?ver=1.2.1'"></script>
-<script src="./static/scripts/aos.js?ver=1.2.1'"></script>
-<script src="./static/scripts/main.js?ver=1.2.1'"></script>
+<script src="./static/scripts/jQuery.js"></script>
+<script src="./static/scripts/mdb.min.js?ver=1.2.1"></script>
+<script src="./static/scripts/aos.js?ver=1.2.1"></script>
+<script src="./static/scripts/main.js?ver=1.2.1"></script>
+<script src="./static/scripts/custom-scripts.js"></script>
 </body>
 </html>
