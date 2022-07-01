@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="fa-IR">
+<html lang="fa-IR" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Material Resume</title>
-<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>-->
-<!--    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
-<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>-->
-<!--    <noscript>-->
-<!--        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
-<!--    </noscript>-->
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>-->
+    <!--    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
+    <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>-->
+    <!--    <noscript>-->
+    <!--        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
+    <!--    </noscript>-->
     <link href="./static/css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
     <link href="./static/css/mdb.min.css?ver=1.2.1'" rel="stylesheet">
     <link href="./static/css/aos.css?ver=1.2.1'" rel="stylesheet">
@@ -26,6 +26,15 @@
 </head>
 <body class="bg-light" id="top">
 <header class="d-print-none">
+
+    <!--  show notifs   -->
+    <?php if (isset($_SESSION['mail']) && $_SESSION['mail'] === 'Done'): ?>
+        <script type="text/javascript">alert('پیام ارسال شد. :)');</script>
+    <?php elseif (isset($_SESSION['mail']) && $_SESSION['mail'] === 'Error'): ?>
+        <script type="text/javascript">alert('پیام ارسال نشد! :(');</script>
+    <?php endif; ?>
+    <?php unset($_SESSION['mail']) ?>
+
     <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
             <h1 class="site-title mb-0">Walter Patterson</h1>
@@ -327,21 +336,21 @@
                                 <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +0718-111-0011</div>
                                 <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> walter@company.com</div>
                             </div>
-                            <div class="mt-5 d-print-none"><form action="https://formspree.io/your@email.com"
-                                                                 method="POST">
+                            <div class="mt-5 d-print-none">
+                                <form action="./controllers/contactController.php" method="POST">
                                     <div class="form-outline mb-4">
-                                        <input type="text" id="name" class="form-control" required/>
+                                        <input type="text" id="name" name="name" class="form-control" required/>
                                         <label class="form-label" for="name">Name</label>
                                     </div>
                                     <div class="form-outline mb-4">
-                                        <input type="email" id="email" class="form-control" required/>
+                                        <input type="email" id="email" name="email" class="form-control" required/>
                                         <label class="form-label" for="email">Email address</label>
                                     </div>
                                     <div class="form-outline mb-4">
-                                        <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
+                                        <textarea class="form-control" name="message" style="resize: none;" id="message" rows="4" required></textarea>
                                         <label class="form-label" for="message">Message</label>
                                     </div>
-                                    <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
+                                    <button type="submit" class="btn btn-info btn-block mb-4" >Send</button>
                                 </form>
                             </div>
                         </div>
