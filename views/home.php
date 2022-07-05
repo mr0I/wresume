@@ -84,7 +84,7 @@
             <div class="shadow-1-strong bg-white my-5" id="intro">
                 <div class="bg-info text-white">
                     <div class="cover bg-image">
-                        <img src="./static/images/project-2.jpg"/>
+                        <img src="./static/images/bg1.jpg"/>
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
                             <div class="text-center p-5">
                                 <div class="avatar p-1">
@@ -99,18 +99,25 @@
                                     <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                                         <nav role="navigation">
                                             <ul class="nav justify-content-center">
-                                                <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="www.linkedin.com/in/ali-sharifian-io-560639100" title="Linkedin">
+                                                        <i class="fab fa-linkedin"></i><span class="menu-title sr-only">لیکدین</span>
+                                                    </a>
                                                 </li>
-                                                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                                                </li>
-                                                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                                                </li>
-                                                <li class="nav-item"><a class="nav-link" href="https://github.com/templateflip" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="https://github.com/tuderiewsc" title="Github">
+                                                        <i class="fab fa-github"></i><span class="menu-title sr-only">گیت هاب</span>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </nav>
                                     </div>
-                                    <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="material-resume.pdf" data-aos="fade-right" data-aos-delay="700">Download CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
+
+                                    <div class="d-print-none">
+                                        <a class="btn btn-outline-light btn-lg shadow-sm m-1 me-3" href="./static/MyResume.pdf"
+                                           data-aos="fade-right" data-aos-delay="700">Download CV</a>
+                                        <a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -121,42 +128,36 @@
                 <div class="about-section">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="h2 fw-light mb-4">About Me</h2>
-                            <p>Hello! I’m Walter Patterson. I am passionate about UI/UX design and Web Design. I am a skilled <strong>front-end developer</strong> and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done.</p>
-                            <p>I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
+                            <h2 class="h2 fw-light mb-4">درباره من</h2>
+                            <p>سلام. علیرضا شریفیان هستم <strong>توسعه دهنده فول استک</strong></p>
+                            <p>علاقه مند به یادگیری هوش مصنوعی</p>
                         </div>
                         <div class="col-md-5 offset-lg-1">
                             <div class="row mt-2">
-                                <h2 class="h2 fw-light mb-4">Bio</h2>
+                                <h2 class="h2 fw-light mb-4">بیوگرافی</h2>
                                 <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Age</div>
+                                    <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> سن</div>
                                 </div>
                                 <div class="col-sm-7">
-                                    <div class="pb-2">28</div>
+                                    <div class="pb-2">36</div>
                                 </div>
                                 <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+                                    <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> ایمیل</div>
                                 </div>
                                 <div class="col-sm-7">
-                                    <div class="pb-2">walter@company.com</div>
+                                    <div class="pb-2">wizard2070@gmail.com</div>
                                 </div>
                                 <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="fab fa-skype pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Skype</div>
+                                    <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> شماره تماس</div>
                                 </div>
                                 <div class="col-sm-7">
-                                    <div class="pb-2">username@skype.com</div>
+                                    <div class="pb-2">+98-9370781575</div>
                                 </div>
                                 <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
+                                    <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> آدرس</div>
                                 </div>
                                 <div class="col-sm-7">
-                                    <div class="pb-2">+0718-111-0011</div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Address</div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="pb-2">131 W, City Center, New York, U.S.A</div>
+                                    <div class="pb-2">اصفهان - سپاهانشهر - بلوار شاهد - خ تعاون 5 - بن بست نسیم - پلاک 45</div>
                                 </div>
                             </div>
                         </div>
@@ -165,49 +166,87 @@
             </div>
             <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
                 <div class="skills-section">
-                    <h2 class="h2 fw-light mb-4">Professional Skills</h2>
+                    <h2 class="h2 fw-light mb-4">مهارت های حرفه ای</h2>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="mb-3"><span class="fw-bolder">HTML</span>
+                            <div class="mb-3"><span class="fw-bolder">Laravel</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
                                     <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Master</div>
                                 </div>
                             </div>
-                            <div class="mb-3"><span class="fw-bolder">CSS</span>
+                            <div class="mb-3"><span class="fw-bolder">Nodejs</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Expert</div>
+                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="200" data-aos-anchor=".skills-section"
+                                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        Expert
+                                    </div>
                                 </div>
                             </div>
-                            <div class="mb-3"><span class="fw-bolder">JavaScript</span>
+                            <div class="mb-3"><span class="fw-bolder">Wordpress</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance</div>
+                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="300" data-aos-anchor=".skills-section"
+                                         style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        Master
+                                    </div>
                                 </div>
                             </div>
-                            <div class="mb-3"><span class="fw-bolder">WordPress</span>
+                            <div class="mb-3"><span class="fw-bolder">Vue</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance</div>
+                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="300" data-aos-anchor=".skills-section"
+                                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        Expert
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3"><span class="fw-bolder">Nuxt.js</span>
+                                <div class="progress my-2 rounded" style="height: 20px">
+                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="300" data-aos-anchor=".skills-section"
+                                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        Expert
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3"><span class="fw-bolder">Data Science(Python)</span>
+                                <div class="progress my-2 rounded" style="height: 20px">
+                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="300" data-aos-anchor=".skills-section"
+                                         style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                        BEGINNER
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6">
-                            <div class="mb-3"><span class="fw-bolder">Adobe Photoshop</span>
+                            <div class="mb-3"><span class="fw-bolder">Javascript & Jquery</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Master</div>
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        Master
+                                    </div>
                                 </div>
                             </div>
-                            <div class="mb-3"><span class="fw-bolder">Adobe Illustrator</span>
+                            <div class="mb-3"><span class="fw-bolder">Restful & Graphql</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Expert</div>
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        Expert
+                                    </div>
                                 </div>
                             </div>
-                            <div class="mb-3"><span class="fw-bolder">Sketch</span>
+                            <div class="mb-3"><span class="fw-bolder">Redis</span>
                                 <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Expert</div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Adobe XD</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Beginner</div>
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                        Mid Level
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +255,7 @@
             </div>
             <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
                 <div class="work-experience-section">
-                    <h2 class="h2 fw-light mb-4">Work Experience</h2>
+                    <h2 class="h2 fw-light mb-4">تجربیات کاری مرتبط با برنامه نویسی</h2>
                     <div class="timeline">
                         <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
                             <div class="timeline-head px-4 pt-3">
