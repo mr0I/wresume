@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Samim';
+    src: url('../fonts/Samim.ttf') format('truetype'),
+    url('../fonts/Samim.eot') format('eot'),
+    url('../fonts/Samim.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: Samim, sans-serif, monospace;
+    font-size: 14px;
+}
+
 .cover > img {
     width: 100%;
     height: 100%;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Material Resume</title>
+    <title>رزومه</title>
     <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>-->
     <!--    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
     <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>-->
@@ -38,7 +38,7 @@
 
     <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
-<!--            <h1 class="site-title mb-0">علیرضا شریفیان</h1>-->
+            <!--            <h1 class="site-title mb-0">علیرضا شریفیان</h1>-->
             <div class="site-nav">
                 <nav role="navigation">
                     <ul class="nav justify-content-center">
@@ -249,6 +249,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="mb-3"><span class="fw-bolder">Socket.io</span>
+                                <div class="progress my-2 rounded" style="height: 20px">
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                        Mid Level
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -259,29 +268,11 @@
                     <div class="timeline">
                         <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
                             <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Frontend Developer <span class="text-muted h6">at Creative Agency</span></div>
+                                <div class="h5">توسعه دهنده فول استک<span class="text-muted h6"> در شرکت رادشید </span></div>
                             </div>
                             <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">May, 2015 - Present</div>
-                                <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Graphic Designer <span class="text-muted h6">at Design Studio</span></div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">June, 2013 - May, 2015</div>
-                                <div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Junior Web Developer <span class="text-muted h6">at Indie Studio</span></div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">Jan, 2011 - May, 2013</div>
-                                <div>User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</div>
+                                <div class="text-muted text-small mb-3">بهمن 98 تاکنون</div>
+                                <div>مدیریت و سفارشی سازی سایت های وردپرسی شرکت و کدنویسی فرانت و پنل مدیریتی استارتاپ آیسی</div>
                             </div>
                         </div>
                     </div>
@@ -289,33 +280,22 @@
             </div>
             <div class="shadow-1-strong bg-white my-5 p-5" id="education">
                 <div class="education-section">
-                    <h2 class="h2 fw-light mb-4">Education</h2>
+                    <h2 class="h2 fw-light mb-4">سوابق آموزشی</h2>
                     <div class="timeline">
                         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
                             <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Masters in Information Technology <span class="text-muted h6">from International University</span>          </div>
+                                <div class="h5">لیسانس مکانیک<span class="text-muted h6"> دانشگاه نجف آباد </span>          </div>
                             </div>
                             <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">2011 - 2013</div>
-                                <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
+                                <div class="text-muted text-small mb-3">1384 - 1388</div>
                             </div>
                         </div>
-                        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
                             <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Bachelor of Computer Science <span class="text-muted h6">from Regional College</span>          </div>
+                                <div class="h5">دیپلم ریاضی<span class="text-muted h6"> دبیرستان پویا </span>          </div>
                             </div>
                             <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">2007 - 2011</div>
-                                <div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Science and Mathematics <span class="text-muted h6">from Mt. High Scool</span>          </div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">1995 - 2007</div>
-                                <div>User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</div>
+                                <div class="text-muted text-small mb-3">1380 - 1384</div>
                             </div>
                         </div>
                     </div>
@@ -323,14 +303,18 @@
             </div>
             <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
                 <div class="portfolio-section">
-                    <h2 class="h2 fw-light mb-4">Portfolio</h2>
+                    <h2 class="h2 fw-light mb-4">سوابق کاری</h2>
                     <div class="row g-0">
-                        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="./static/images/project-1.jpg" width="800" height="500"/></a></div>
+                        <div class="col-md-6">
+                            <a href="https://dgmarketz.com/" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/dgm.jpg" width="800" height="500"/>
+                            </a>
+                        </div>
                         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
                             <div class="m-4 mt-md-2">
-                                <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
-                                <h3>Photo Agency Website</h3>
-                                <p class="text-muted">Built highly performant website front end for a Photography agency. Delivered codebase in HTML, CSS and modern JavaScript.</p>
+                                <p class="text-teal text-small">BackEnd / Frontend / HTML / CSS / JavaScript / Crawler</p>
+                                <h3>وبسایت همکاری در فروش دیجی کالا</h3>
+                                <p class="text-muted">خزش محصولات دیجی کالا جهت همکاری در فروش</p>
                             </div>
                         </div>
                     </div>
@@ -356,65 +340,36 @@
                     </div>
                 </div>
             </div>
-            <div class="shadow-1-strong bg-white my-5 p-5" id="references">
-                <div class="reference-section">
-                    <h2 class="h2 fw-light mb-4">References</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="d-flex mb-2">
-                                <div class="avatar"><img src="./static/images/reference-image-1.jpg" width="60" height="60"/></div>
-                                <div class="header-bio m-3 mb-0">
-                                    <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Aiyana</h3>
-                                    <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CEO / Web Design Company</p>
-                                </div>
-                            </div>
-                            <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-                                <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Walter displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex mb-2">
-                                <div class="avatar"><img src="./static/images/reference-image-2.jpg" width="60" height="60"/></div>
-                                <div class="header-bio m-3 mb-0">
-                                    <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Alexander</h3>
-                                    <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Front-end Developer / Web Design Company</p>
-                                </div>
-                            </div>
-                            <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-                                <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Walter is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
                 <div class="contant-section">
-                    <h2 class="h2 fw-light text mb-4">Contact</h2>
+                    <h2 class="h2 fw-light text mb-4">تماس با من</h2>
                     <div class="row mb-4">
                         <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
                             <div class="mt-1">
-                                <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +0718-111-0011</div>
-                                <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> walter@company.com</div>
+                                <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +98-9370781575</div>
+                                <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> wizard2070@gmail.com</div>
                             </div>
                             <div class="mt-5 d-print-none">
-                                <form action="./controllers/contactController.php" method="POST">
+                                <form action="./controllers/contactController.php" method="POST" style="direction: ltr">
                                     <div class="form-outline mb-4">
                                         <input type="text" id="name" name="name" class="form-control" required/>
-                                        <label class="form-label" for="name">Name</label>
+                                        <label class="form-label" for="name">نام</label>
                                     </div>
                                     <div class="form-outline mb-4">
                                         <input type="email" id="email" name="email" class="form-control" required/>
-                                        <label class="form-label" for="email">Email address</label>
+                                        <label class="form-label" for="email">آدرس ایمیل</label>
                                     </div>
                                     <div class="form-outline mb-4">
                                         <textarea class="form-control" name="message" style="resize: none;" id="message" rows="4" required></textarea>
-                                        <label class="form-label" for="message">Message</label>
+                                        <label class="form-label" for="message">پیام</label>
                                     </div>
-                                    <button type="submit" class="btn btn-info btn-block mb-4" >Send</button>
+                                    <button type="submit" class="btn btn-info btn-block mb-4" >ارسال</button>
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.9774799129763!2d-73.98032087190995!3d40.765927126473905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9cfcb250d%3A0xdb570ddcb766e3a8!2sNew%20York%20City%20Center!5e0!3m2!1sen!2sin!4v1614183731149!5m2!1sen!2sin" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe></div>
+                        <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1681.4350706980451!2d51.677646388775564!3d32.55631082199214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1657037373760!5m2!1sfa!2s" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -422,26 +377,8 @@
 </div>
 <footer class="pt-4 pb-4 text-muted text-center d-print-none">
     <div class="container">
-        <div class="my-3">
-            <div class="h4">Walter Patterson</div>
-            <div class="footer-nav">
-                <nav role="navigation">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/templateflip" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
         <div class="text-small">
             <div class="mb-1">&copy; Material Resume. All rights reserved.</div>
-            <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
         </div>
     </div>
 </footer>
