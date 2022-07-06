@@ -284,6 +284,16 @@
                     <div class="timeline">
                         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
                             <div class="timeline-head px-4 pt-3">
+                                <div class="h5">بوت کمپ هوش مصنوعی فیلاگر
+                                    <span class="text-muted h6"> وب سایت فیلاگر </span>
+                                </div>
+                            </div>
+                            <div class="timeline-body px-4 pb-4">
+                                <div class="text-muted text-small mb-3">1400</div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+                            <div class="timeline-head px-4 pt-3">
                                 <div class="h5">لیسانس مکانیک<span class="text-muted h6"> دانشگاه نجف آباد </span>          </div>
                             </div>
                             <div class="timeline-body px-4 pb-4">
@@ -312,7 +322,7 @@
                         </div>
                         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
                             <div class="m-4 mt-md-2">
-                                <p class="text-teal text-small">BackEnd / Frontend / HTML / CSS / JavaScript / Crawler</p>
+                                <p class="text-teal text-small">BackEnd / Frontend / JavaScript / Jquery / Express / Cheerio</p>
                                 <h3>وبسایت همکاری در فروش دیجی کالا</h3>
                                 <p class="text-muted">خزش محصولات دیجی کالا جهت همکاری در فروش</p>
                             </div>
@@ -321,21 +331,69 @@
                     <div class="row g-0 portfolio-reverse">
                         <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
                             <div class="m-4 mt-md-2 text-end">
-                                <p class="text-teal text-small">Graphic Design / Photoshop / Sketch</p>
-                                <h3>Restaurant Website Design</h3>
-                                <p class="text-muted">Web design for popular resturant chain involving complex layouts done in both Photoshop and Sketch. Collaborated with back-end and front-end team for finished product.</p>
+                                <p class="text-teal text-small">Express / Socket.io / Redis/ Google Oauth</p>
+                                <h3>چت روم</h3>
+                                <p class="text-muted">چت رمزگذاری شده</p>
                             </div>
                         </div>
-                        <div class="col-md-6"><a href="https://www.behance.net/" target="_blank"><img class="img-fluid" src="./static/images/project-2.jpg" width="800" height="500"/></a></div>
+                        <div class="col-md-6">
+                            <a href="https://mysecret-chat.herokuapp.com" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/chatroom.jpg" width="800" height="500"/>
+                            </a>
+                        </div>
                     </div>
                     <div class="row g-0">
-                        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="./static/images/project-3.jpg" width="800" height="500"/></a></div>
+                        <div class="col-md-6">
+                            <a href="https://isee.sisoog.com/cpanel/" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/ic-panel.jpg" width="800" height="500"/>
+                            </a>
+                        </div>
                         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
                             <div class="m-4 mt-md-2">
-                                <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
-                                <h3>E-Commerce Website</h3>
-                                <p class="text-muted">Built highly performant website for an E-commerce Portal. Worked with back-end team to timely deliver codebase in HTML, CSS and modern JavaScript.</p>
+                                <p class="text-teal text-small">Vue</p>
+                                <h3>پنل مدیریتی وبسایت آیسی</h3>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row g-0 portfolio-reverse">
+                        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                            <div class="m-4 mt-md-2 text-end">
+                                <p class="text-teal text-small">Wordpress / Create Plugins </p>
+                                <h3>توسعه وبسایت سیسوگ</h3>
+                                <p class="text-muted">مدیریت و پلاگین نویسی</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://sisoog.com/" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/sisoog.jpg" width="800" height="500"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <a href="https://radshid.com/" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/radshid.jpg" width="800" height="500"/>
+                            </a>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                            <div class="m-4 mt-md-2">
+                                <p class="text-teal text-small">Wordpress / Create Plugins</p>
+                                <h3>توسعه وبسایت رادشید</h3>
+                                <p class="text-muted">مدیریت و پلاگین نویسی</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                            <div class="m-4 mt-md-2 text-end">
+                                <p class="text-teal text-small">Express / Cheerio</p>
+                                <h3>اینستا دانلودر بدون API</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://instaa-downloader.herokuapp.com/" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/insta-downloader.jpg" width="800" height="500"/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -344,7 +402,7 @@
                 <div class="contant-section">
                     <h2 class="h2 fw-light text mb-4">تماس با من</h2>
                     <div class="row mb-4">
-                        <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                        <div class="col-md-7" data-aos="fade-left" data-aos-delay="200">
                             <div class="mt-1">
                                 <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +98-9370781575</div>
                                 <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> wizard2070@gmail.com</div>
@@ -367,7 +425,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="col-md-5 d-print-none" data-aos="zoom-in" data-aos-delay="100">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1681.4350706980451!2d51.677646388775564!3d32.55631082199214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1657037373760!5m2!1sfa!2s" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
