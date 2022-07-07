@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>رزومه</title>
-    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>-->
-    <!--    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
-    <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>-->
-    <!--    <noscript>-->
-    <!--        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>-->
-    <!--    </noscript>-->
+    <title>رزومه من</title>
     <link href="./static/css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
     <link href="./static/css/mdb.min.css?ver=1.2.1'" rel="stylesheet">
     <link href="./static/css/aos.css?ver=1.2.1'" rel="stylesheet">
@@ -38,7 +32,6 @@
 
     <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
-            <!--            <h1 class="site-title mb-0">علیرضا شریفیان</h1>-->
             <div class="site-nav">
                 <nav role="navigation">
                     <ul class="nav justify-content-center">
@@ -129,7 +122,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h2 class="h2 fw-light mb-4">درباره من</h2>
-                            <p>سلام. علیرضا شریفیان هستم <strong>توسعه دهنده فول استک</strong></p>
+                            <p>سلام. علیرضا شریفیان هستم <strong>توسعه دهنده فول استک وب</strong></p>
                             <p>علاقه مند به یادگیری هوش مصنوعی</p>
                         </div>
                         <div class="col-md-5 offset-lg-1">
@@ -410,7 +403,7 @@
                             <div class="mt-5 d-print-none">
                                 <form action="./controllers/contactController.php" method="POST" style="direction: ltr">
                                     <div class="form-outline mb-4">
-                                        <input type="text" id="name" name="name" class="form-control" required/>
+                                        <input type="text" id="name" name="name" class="form-control"/>
                                         <label class="form-label" for="name">نام</label>
                                     </div>
                                     <div class="form-outline mb-4">
@@ -418,10 +411,15 @@
                                         <label class="form-label" for="email">آدرس ایمیل</label>
                                     </div>
                                     <div class="form-outline mb-4">
+                                        <input type="text" id="phone" name="phone" class="form-control"
+                                               onkeyup="this.value = this.value.replace(/[^\d]+/g, '');" maxlength="11" required/>
+                                        <label class="form-label" for="phone"> شماره تماس</label>
+                                    </div>
+                                    <div class="form-outline mb-4">
                                         <textarea class="form-control" name="message" style="resize: none;" id="message" rows="4" required></textarea>
                                         <label class="form-label" for="message">پیام</label>
                                     </div>
-                                    <button type="submit" class="btn btn-info btn-block mb-4" >ارسال</button>
+                                    <button type="submit" name="contact-form" class="btn btn-info btn-block mb-4" >ارسال</button>
                                 </form>
                             </div>
                         </div>
