@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>رزومه من</title>
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
     <link href="./static/css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
     <link href="./static/css/mdb.min.css?ver=1.2.1'" rel="stylesheet">
     <link href="./static/css/aos.css?ver=1.2.1'" rel="stylesheet">
@@ -93,12 +94,14 @@
                                         <nav role="navigation">
                                             <ul class="nav justify-content-center">
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="www.linkedin.com/in/ali-sharifian-io-560639100" title="Linkedin">
+                                                    <a class="nav-link" target="_blank"
+                                                       href="https://linkedin.com/in/ali-sharifian-io-560639100" title="Linkedin">
                                                         <i class="fab fa-linkedin"></i><span class="menu-title sr-only">لیکدین</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="https://github.com/tuderiewsc" title="Github">
+                                                    <a class="nav-link" target="_blank"
+                                                       href="https://github.com/tuderiewsc" title="Github">
                                                         <i class="fab fa-github"></i><span class="menu-title sr-only">گیت هاب</span>
                                                     </a>
                                                 </li>
@@ -268,6 +271,15 @@
                                 <div>مدیریت و سفارشی سازی سایت های وردپرسی شرکت و کدنویسی فرانت و پنل مدیریتی استارتاپ آیسی</div>
                             </div>
                         </div>
+                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                            <div class="timeline-head px-4 pt-3">
+                                <div class="h5">توسعه دهنده اندروید</div>
+                            </div>
+                            <div class="timeline-body px-4 pb-4">
+                                <div class="text-muted text-small mb-3">سال 95 تا 98</div>
+                                <div>برنامه نویسی اندروید با نرم افزار B4A بصورت خودآموز</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -387,6 +399,20 @@
                             <a href="https://instaa-downloader.herokuapp.com/" target="_blank">
                                 <img class="img-fluid" src="./static/images/portfolio/insta-downloader.jpg" width="800" height="500"/>
                             </a>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <a href="https://cafebazaar.ir/app/ir.EngDic.android" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/dict.jpg" width="800" height="500"/>
+                            </a>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                            <div class="m-4 mt-md-2">
+                                <p class="text-teal text-small">B4A / Visual Basic</p>
+                                <h3>اپلیکیشن اندروید</h3>
+                                <p class="text-muted">دیکشنری مهندسی + عمومی</p>
+                            </div>
                         </div>
                     </div>
                 </div>

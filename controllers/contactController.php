@@ -19,11 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['contact-form'])) {
         'message' => $msg
     );
 
-
     fwrite($logFile, "\n");
     fwrite($logFile, json_encode($data));
     fclose($logFile);
-
 
     $_SESSION['mail'] = 'Done';
     header("Location: " . getSiteUrl());
