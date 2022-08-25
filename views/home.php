@@ -240,8 +240,8 @@
                                 <div class="progress my-2 rounded" style="height: 20px">
                                     <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
                                          data-aos-delay="400" data-aos-anchor=".skills-section"
-                                         style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                        Mid Level
+                                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        Expert
                                     </div>
                                 </div>
                             </div>
@@ -249,8 +249,35 @@
                                 <div class="progress my-2 rounded" style="height: 20px">
                                     <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
                                          data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        Expert
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3"><span class="fw-bolder">Elasticsearch</span>
+                                <div class="progress my-2 rounded" style="height: 20px">
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
                                          style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                                         Mid Level
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3"><span class="fw-bolder">Unit Test</span>
+                                <div class="progress my-2 rounded" style="height: 20px">
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                        Mid Level
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3"><span class="fw-bolder">Docker</span>
+                                <div class="progress my-2 rounded" style="height: 20px">
+                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
+                                         data-aos-delay="400" data-aos-anchor=".skills-section"
+                                         style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                        BEGINNER
                                     </div>
                                 </div>
                             </div>
@@ -413,6 +440,20 @@
                                 <h3>اپلیکیشن اندروید</h3>
                                 <p class="text-muted">دیکشنری مهندسی + عمومی</p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                            <div class="m-4 mt-md-2 text-end">
+                                <p class="text-teal text-small">Wordpress, PHP</p>
+                                <h3>افزونه حمایت مالی (زرین پال، پی پینگ)</h3>
+                                <p class="text-muted">حمایت مالی از نویسندگان سایت به صورت تفکیکی</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://sisoog.com/" target="_blank">
+                                <img class="img-fluid" src="./static/images/portfolio/donate.jpg" width="800" height="500"/>
+                            </a>
                         </div>
                     </div>
                 </div>
